@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#061b1d">
+  <title>Nuestro pequeño universo </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="intro" id="intro">
+    <div class="intro-stars">✦　·　✧　　·　✦</div>
+    <p class="eyebrow">UN LUGAR HECHO PARA DOS</p>
+    <h1>Bienvenido a<br><span>nuestro universo</span></h1>
+    <p class="intro-copy">Hay millones de galaxias, pero mi favorita siempre será aquella en la que coincidimos.</p>
+    <button class="primary-btn" id="enterBtn">Entrar a nuestra galaxia <span>✦</span></button>
+    <div class="intro-orbit orbit-one"></div>
+    <div class="intro-orbit orbit-two"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Inicio">✦ <span>nuestro universo</span></a>
+    <div class="top-actions">
+      <button class="small-btn" id="musicBtn" aria-label="Activar o pausar música">♫ <span id="musicLabel">Música</span></button>
+      <button class="small-btn" id="helpBtn">¿Cómo explorar?</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">COORDENADAS: TÚ + YO</p>
+        <h2>Mi lugar favorito<br>está <em>contigo.</em></h2>
+        <p class="hero-text">Explora despacito. He escondido pequeños pedacitos de cariño entre las estrellas.</p>
+        <div class="hint"><span class="hint-dot"></span> Arrastra para girar · Usa la rueda para acercarte</div>
+      </div>
+
+      <div class="universe-wrap">
+        <div id="universe" aria-label="Galaxia 3D interactiva"></div>
+        <div class="universe-caption">NUESTRO UNIVERSO <span>✦</span></div>
+        <div class="floating-note note-one">eres mi casualidad favorita</div>
+        <div class="floating-note note-two">mi persona especial ♡</div>
+        <div class="floating-note note-three">contigo, todo brilla</div>
+        <button class="heart-hotspot" id="letterBtn" aria-label="Abrir carta sorpresa">
+          <span>♥</span><small>toca aquí</small>
+        </button>
+      </div>
+    </section>
+
+    <section class="message-strip">
+      <span>✦</span> Un universo entero y aun así siempre te elegiría a ti.
+      <span>✦</span>
+    </section>
+
+    <section class="love-section">
+      <div class="section-heading">
+        <p class="eyebrow">PEQUEÑOS PLANETAS, GRANDES SENTIMIENTOS</p>
+        <h2>Unas cuantas razones <em>para sonreír</em></h2>
+        <p>Presiona cada planeta para descubrir un mensajito.</p>
+      </div>
+      <div class="planet-grid">
+        <button class="planet-card teal" data-message="Porque incluso en mis días más normales, haces que algo bonito suceda.">
+          <span class="planet-art">✦</span><strong>Tu forma de ser</strong><small>Un brillo único</small>
+        </button>
+        <button class="planet-card red" data-message="Porque contigo puedo reírme de cualquier tontería y convertirla en un recuerdo.">
+          <span class="planet-art">♡</span><strong>Tus ocurrencias</strong><small>Mi caos favorito</small>
+        </button>
+        <button class="planet-card pink" data-message="Porque tu compañía hace que hasta el silencio se sienta bonito.">
+          <span class="planet-art">☾</span><strong>Tu compañía</strong><small>Mi lugar seguro</small>
+        </button>
+      </div>
+      <div class="reveal-message" id="revealMessage" aria-live="polite">Elige un planeta para descubrir su mensaje</div>
+    </section>
+
+    <section class="comic-section">
+      <div class="comic-copy">
+        <p class="eyebrow">EDICIÓN ESPECIAL: TÚ</p>
+        <h2>Un héroe con<br><em>su propio universo.</em></h2>
+        <p>Un pequeño rincón con energía de cómic, rojo intenso y negro espacial, pero con mucho amor. Porque hasta los héroes merecen que les recuerden lo especiales que son.</p>
+        <div class="comic-stamp">LOVE<br>ISSUE <b>∞</b></div>
+      </div>
+        <div class="comic-art">
+
+      <div class="comic-burst">POW!</div>
+      <div class="comic-moon"></div>
+
+      <div class="hero-character">
+
+          <!-- Capa -->
+          <div class="hero-cape"></div>
+
+          <!-- Cuerpo -->
+          <div class="hero-body">
+
+              <!-- Cabeza -->
+              <div class="hero-head">
+
+                  <div class="mask-top"></div>
+
+                  <!-- Ojos -->
+                  <div class="hero-eyes">
+                      <span></span>
+                      <span></span>
+                  </div>
+
+                  <div class="mask-mouth"></div>
+              </div>
+
+              <!-- Cuello -->
+              <div class="hero-neck"></div>
+
+              <!-- Brazos -->
+              <div class="hero-arm left-arm"></div>
+              <div class="hero-arm right-arm"></div>
+
+              <!-- Pecho -->
+              <div class="hero-chest">
+                  <span>♥</span>
+              </div>
+
+              <!-- Cinturón -->
+              <div class="hero-belt">
+                  <span>✦</span>
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="comic-heart">♥</div>
+
+      <div class="comic-caption">
+          NO NECESITO SUPERPODERES<br>
+          PARA SABER QUE ERES ESPECIAL
+      </div>
+
+  </div>
+    </section>
+
+    <footer>
+      <div class="footer-star">✦</div>
+      <p>Hecho con cariño, para mi persona favorita.</p>
+      <span>FIN DE LA TRANSMISIÓN… O TAL VEZ EL COMIENZO. ♡</span>
+    </footer>
+  </main>
+
+  <div class="modal" id="letterModal" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+    <div class="modal-card letter-card">
+      <button class="close-btn" data-close="letterModal" aria-label="Cerrar">×</button>
+      <p class="eyebrow">UN MENSAJE DESDE MI GALAXIA</p>
+      <div class="letter-heart">♥</div>
+      <h2 id="letterTitle">Para ti, mi persona favorita y mi lugar seguro</h2>
+      <p id="letterText">Amo la paz que traes a mis días,
+                          la forma en que tu mano busca la mía,
+                          transformando las horas más vacías
+                          en una constante y dulce alegría.
+
+                          No importa el ruido que afuera se escuche,
+                          ni las tormentas que intente el destino,
+                          me basta que tu pecho me acune
+                          para saber que es perfecto el camino.
+
+                          Eres el tiempo que vale la pena,
+                          el detalle sutil que me calma,
+                          la hermosa certeza que me llena
+                          y se queda a vivir en mi alma.</p>
+      <span class="signature">Con todo mi cariño, tu kriss de naranja. ♡</span>
+    </div>
+  </div>
+
+  <div class="modal" id="helpModal" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+    <div class="modal-card">
+      <button class="close-btn" data-close="helpModal" aria-label="Cerrar">×</button>
+      <p class="eyebrow">GUÍA DE EXPLORACIÓN</p>
+      <h2 id="helpTitle">¡Explora sin miedo!</h2>
+      <ul class="help-list">
+        <li><b>Arrastra</b> dentro de la galaxia para girarla.</li>
+        <li><b>Rueda del mouse</b> para acercarte o alejarte.</li>
+        <li><b>Corazón central</b> para abrir tu carta sorpresa.</li>
+        <li><b>Planetas de abajo</b> para descubrir mensajes.</li>
+        <li><b>Música</b> para activar o pausar la canción.</li>
+      </ul>
+    </div>
+  </div>
+  <img src="img/deadpool.png" alt="Mi héroe favorito" class="deadpool-img">
+
+  <audio id="backgroundMusic" src="audio/musica.mp3" loop preload="none"></audio>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
